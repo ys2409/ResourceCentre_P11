@@ -39,7 +39,7 @@ public class ResourceCentre {
 					ResourceCentre.addCamcorder(camcorderList, cc);
 
 				} else if (itemType == 2) {
-					// Add Chromebook
+					// Add Chromebooka
 					Chromebook cb = inputChromebook();
 					ResourceCentre.addChromebook(chromebookList, cb);
 
@@ -271,7 +271,9 @@ public class ResourceCentre {
 		boolean isReturned = false;
 
 		for (int i = 0; i < camcorderList.size(); i++) {
+			
 			String assetTag = camcorderList.get(i).getAssetTag();
+			
 			if (tag.equalsIgnoreCase(assetTag)
 					&& camcorderList.get(i).getIsAvailable() == false) {
 				camcorderList.get(i).setIsAvailable(true);
