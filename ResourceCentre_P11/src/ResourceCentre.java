@@ -39,7 +39,7 @@ public class ResourceCentre {
 					ResourceCentre.addCamcorder(camcorderList, cc);
 
 				} else if (itemType == 2) {
-					// Add Chromebooka
+					// Add Chromebook
 					Chromebook cb = inputChromebook();
 					ResourceCentre.addChromebook(chromebookList, cb);
 
