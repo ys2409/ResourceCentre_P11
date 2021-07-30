@@ -52,7 +52,6 @@ public class ResourceCentreTest {
 	public void addChromebookTest() {
 		// Item list is not null, so that can add a new item - boundary
 		assertNotNull("Test if there is valid Chromebook arraylist to add to", chromebookList);
-		
 		//Given an empty list, after adding 1 item, the size of the list is 1 - normal
 		//The item just added is as same as the first item of the list
 		ResourceCentre.addChromebook(chromebookList, cb1);		
